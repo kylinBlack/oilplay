@@ -1,0 +1,83 @@
+   
+@import './global.scss';
+   
+   
+   /* slider */
+  .slider-pagination-bullets {
+      display: none;
+  }
+  /* product list page */
+  .thumb-loan {
+    .iphone-code{
+      .iphone-code-field {
+        margin: 0 40px;
+        .md-field-item-content {
+          font-size: 30px;
+          background: none;
+          .md-field-item-title {
+            font-weight: 700;
+            text-align: left;
+          }
+          .md-field-item-control {
+            input {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+    .screen-row{
+      .screen-info{
+        div.money{
+          .md-field-item{
+            .md-field-item-content{
+              min-height: 50px;
+              .md-field-item-control{
+                input{
+                  height: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+   }
+
+  /* login page */
+  .loans-login{
+    .md-button{
+      height: 80px;
+      font-size: 30px;
+    }
+    .md-button.warning{
+      background-color: #fd4010;
+    }
+    .card-login{
+      .md-field-item:first-child{
+        margin-bottom: 40px;
+      }
+      .md-field-item-content{
+        border-radius: 40px;
+        min-height: 80px;
+        padding: 0;
+        &::before{
+          content: normal;
+        }
+        .md-field-item-control{
+          input{
+            padding: 0 40px;
+            height: 80px;
+            background-color: #f4f4f4;
+            border-radius: 40px;
+          }
+        }
+        .md-field-item-right{
+          margin-left: 70px;
+          width: 220px;
+          padding: 0;
+
+        }
+      }
+    }
+  }
